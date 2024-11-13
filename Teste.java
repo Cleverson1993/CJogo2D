@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Teste {
     public static void main(String[] args) {
 
+        @SuppressWarnings("resource")
         Scanner scanner= new Scanner(System.in);//Cria um objeto Scanner para ler a entrada do usuário;
 
         System.out.println("Qual é se nome?");//pergunta ao usuário;

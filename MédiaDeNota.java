@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class MédiaDeNota {
     public static void main(String[] args) {
         
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);//Cria Um objeto Scanner para a entrada do usuário;
         ArrayList<Double> notas = new ArrayList<>();//Cria uma lista para arnazenar as notas dos alunos;
 
